@@ -1,0 +1,33 @@
+buildscript {
+    ext.kotlin_version = '1.8.0' // أو أي إصدار Kotlin تستخدمه
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.4' // أو أي إصدار Gradle Plugin تستخدمه
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        // تم إصلاح الرابط هنا من http إلى https
+        maven { url 'https://storage.flutter-io.cn/download.flutter.io' }
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
