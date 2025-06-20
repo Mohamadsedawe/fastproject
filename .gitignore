@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+=======
+>>>>>>> b8bd750b1f70ec300368d6a61603b52ee9316bfa
 # Miscellaneous
 *.class
 *.log
@@ -5,11 +33,17 @@
 *.swp
 .DS_Store
 .atom/
+<<<<<<< HEAD
 .build/
 .buildlog/
 .history
 .svn/
 .swiftpm/
+=======
+.buildlog/
+.history
+.svn/
+>>>>>>> b8bd750b1f70ec300368d6a61603b52ee9316bfa
 migrate_working_dir/
 
 # IntelliJ related
@@ -43,3 +77,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+<<<<<<< HEAD
+=======
+>>>>>>> eedb772 (Initial commit)
+>>>>>>> b8bd750b1f70ec300368d6a61603b52ee9316bfa

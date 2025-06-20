@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="workerr"
+=======
+        android:label="webb"
+>>>>>>> b8bd750b1f70ec300368d6a61603b52ee9316bfa
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

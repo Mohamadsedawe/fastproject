@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "workerr",
     "short_name": "workerr",
+=======
+    "name": "webb",
+    "short_name": "webb",
+>>>>>>> b8bd750b1f70ec300368d6a61603b52ee9316bfa
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
